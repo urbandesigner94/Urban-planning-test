@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   params.delete('domain'); // domain은 서버에서 설정
 
   params.set('key', key);
-  params.set('domain', 'urban-planning-test.vercel.app');
+  params.set('domain', 'automationofurbanplanningpractices.vercel.app');
 
   const vworldUrl = `https://api.vworld.kr/req/wms?${params.toString()}`;
 
