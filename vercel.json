@@ -1,5 +1,6 @@
 {
-  "buildCommand": "echo \"window.APP_CONFIG = { vworldKey: '$VWORLD_API_KEY' };\" > config.js",
+  "buildCommand": "echo \"window.APP_CONFIG = { vworldKey: '$VWORLD_KEY' };\" > config.js",
+  "outputDirectory": ".",
   "functions": {
     "api/*.js": {
       "memory": 128,
